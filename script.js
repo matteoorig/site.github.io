@@ -139,7 +139,6 @@ const root = document.querySelector(":root");
 
 if (vW <= 450 && vH <= 1000) {
   //mobile
-  screen.orientation.lock("portrait");
 } else {
   //Desktop
   window.addEventListener("mousemove", (ev) => (mouse = getMousePos(ev)));
