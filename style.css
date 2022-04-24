@@ -550,6 +550,7 @@ h1:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 .container-item-ps .container-text-ps-title {
   font-family: "Montserrat", sans-serif;
@@ -575,6 +576,7 @@ h1:hover {
   width: 100%;
   height: 100%;
   position: relative;
+  
 }
 .top-central{
   width: 15%;
@@ -586,7 +588,7 @@ h1:hover {
 .central{
   width: 95%;
   position: absolute;
-  top: 45%;
+  top: 49%;
 }
 .bottom-central{
   width: 15%;

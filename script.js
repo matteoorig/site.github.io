@@ -136,6 +136,9 @@ const logo = document.querySelector("#logo");
 const hs_area = document.querySelectorAll("#area");
 const wrapper_selection = document.querySelectorAll(".wrappersection");
 const root = document.querySelector(":root");
+const itemcentral = document.querySelector(".central");
+const itemtop_central = document.querySelector(".top-central");
+const itembottom_central = document.querySelector(".bottom-central");
 
 if (vW <= 450 && vH <= 1000) {
   //mobile
@@ -178,6 +181,55 @@ if (vW <= 450 && vH <= 1000) {
       });
     });
   });
+
+
+  //item animation
+  itemcentral.addEventListener("mouseenter", () =>{
+    console.log(itemtop_central)
+    gsap.to(itemcentral, {
+      duration: 0.6,
+      width: "110%",
+      xPercent: -20,
+      ease: "Power3.easeOut",
+    });
+    gsap.to(itemtop_central, {
+      duration: 0.9,
+      width: "21%",
+      xPercent: -100,
+      yPercent: 150,
+      ease: "Power3.easeOut",
+    })
+    gsap.to(itembottom_central, {
+      duration: 0.9,
+      width: "21%",
+      xPercent: -100,
+      yPercent: -100,
+      ease: "Power3.easeOut",
+    })
+  })
+  itemcentral.addEventListener("mouseleave", () =>{
+    gsap.to(itemcentral, {
+      duration: 0.6,
+      width: "95%",
+      xPercent: 0,
+      ease: "Power3.easeOut",
+    });
+    gsap.to(itemtop_central, {
+      duration: 0.6,
+      width: "15%",
+      xPercent: 0,
+      yPercent: 0,
+      ease: "Power3.easeOut",
+    });
+    gsap.to(itembottom_central, {
+      duration: 0.6,
+      width: "15%",
+      xPercent: 0,
+      yPercent: 0,
+      ease: "Power3.easeOut",
+    })
+  })
+
 
   //on hover horizontal scroll
   hs_area.forEach((obj) => {
