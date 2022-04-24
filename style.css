@@ -721,6 +721,9 @@ h1:hover {
   .bottom-footer {
     font-size: 15px;
   }
+  .navbar{
+    padding: 3%;
+  }
   .cursor{
     display: none;
   }
