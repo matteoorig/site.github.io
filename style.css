@@ -739,9 +739,6 @@ h1:hover {
   .selectsection {
     height: 280px;
   }
-  .navbar {
-    padding: 4%;
-  }
   .container-post-scroll {
     flex-direction: column;
     padding: 0;
