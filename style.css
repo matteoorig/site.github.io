@@ -724,7 +724,10 @@ h1:hover {
     font-size: 15px;
   }
   .navbar{
-    padding: 3%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
   }
   .cursor{
     display: none;
