@@ -27,7 +27,7 @@ body {
 
 .navbar {
   width: 100%;
-  height: fit-content;
+  height: max-content;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
