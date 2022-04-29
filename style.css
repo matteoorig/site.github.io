@@ -27,7 +27,7 @@ body {
 
 .navbar {
   width: 100%;
-  height: max-content;
+  height: fit-content;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -36,7 +36,7 @@ body {
   position: fixed;
   transition: all 0.2s ease-in-out;
   z-index: 9;
-
+  padding: 2%;
 }
 .navbar a {
   text-decoration: none;
@@ -54,7 +54,6 @@ body {
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: -3px;
   left: 0;
   background-color: var(--details);
   transform-origin: bottom right;
@@ -196,7 +195,7 @@ h1:hover {
   background-color: var(--primary);
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-flow: row wrap;
 
   padding-left: 3vmin;
@@ -729,7 +728,7 @@ h1:hover {
     font-size: 15px;
   }
   .navbar{
-    padding: 20px;
+    padding: 5vw;
   }
   .cursor{
     display: none;
