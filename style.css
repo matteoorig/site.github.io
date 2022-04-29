@@ -729,7 +729,7 @@ h1:hover {
     font-size: 15px;
   }
   .navbar{
-
+    padding: 20px;
   }
   .cursor{
     display: none;
