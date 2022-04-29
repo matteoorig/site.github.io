@@ -36,7 +36,7 @@ body {
   position: fixed;
   transition: all 0.2s ease-in-out;
   z-index: 9;
-  padding: 2%;
+
 }
 .navbar a {
   text-decoration: none;
@@ -729,7 +729,7 @@ h1:hover {
     font-size: 15px;
   }
   .navbar{
-    padding: 20px;
+
   }
   .cursor{
     display: none;
