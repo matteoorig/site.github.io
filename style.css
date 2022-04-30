@@ -255,12 +255,11 @@ h1:hover {
   margin: 0 60px 0 60px;
 }
 .wrapper-item .container {
-  width: 80%;
+  width: 100%;
   height: 40%;
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
 }
 .wrapper-item .title-hs {
@@ -275,9 +274,9 @@ h1:hover {
   margin-bottom: 10px;
 }
 
-.wrapper-item .section-img {
+ .section-img {
   width: 100%;
-  height: 80%;
+  height: fit-content;
   background-color: var(--details);
   position: relative;
 }
@@ -308,23 +307,30 @@ h1:hover {
   font-size: 38px;
   margin-bottom: 10px;
 }
-.section-img .back-img {
-  width: 100%;
-  height: 100%;
 
-  position: absolute;
-  top: 0;
-  left: 0;
-}
 
 /*sistemazione di ogni immagine horizontal-scroll*/
-.section-img .el1 {
-  width: 100%;
-  height: 100%;
-
-  position: absolute;
+.el1 {
+  width: 350px;
 }
-
+.el2 {
+  width: 500px;
+}
+.el3 {
+  width: 350px;
+}
+.el3 {
+  width: 470px;
+}
+.el4 {
+  width: 300px;
+}
+.el5 {
+  width: 450px;
+}
+.el6 {
+  width: 450px;
+}
 /*freccia hs*/
 .hs-arrow {
   width: 5%;
@@ -504,7 +510,7 @@ h1:hover {
   height: 100%;
   background-color: #c84b31;
   clip-path: polygon(5% 5%, 94% 0, 100% 100%, 0 96%);
-  background-image: url("./background.JPG");
+  background-image: url("./img52.JPG");
   background-repeat: no-repeat;
   background-size: cover;
 }
