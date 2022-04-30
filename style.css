@@ -427,7 +427,6 @@ h1:hover {
 
   flex-flow: row wrap;
 
-  margin-bottom: 50px;
   padding: 35px;
 }
 .item-img-psi {
@@ -641,11 +640,13 @@ h1:hover {
   background-color: var(--primary);
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: "Montserrat", sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: white;
 }
 
@@ -761,5 +762,8 @@ h1:hover {
   }
   .container-mobile > a {
     display: flex;
+  }
+  .borderplus{
+    margin-bottom: 20px;
   }
 }
