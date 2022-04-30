@@ -38,7 +38,7 @@ body {
   z-index: 9;
   padding: 25px
 }
-.navbar a {
+.list a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: large;
@@ -47,7 +47,7 @@ body {
   position: relative;
   cursor: default;
 }
-.navbar a:after {
+.list a:after {
   content: "";
   border-radius: 15px;
   position: absolute;
@@ -56,14 +56,14 @@ body {
   height: 2px;
   left: 0;
   background-color: var(--details);
-  transform-origin: bottom right;
+  transform-origin: top right;
   transition: transform 0.25s ease-out;
 }
-.navbar a:hover:after {
+.list a:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-.navbar a:hover {
+.list a:hover {
   color: var(--details);
 }
 .logo {
@@ -73,10 +73,6 @@ body {
   list-style: none;
   display: flex;
   gap: 15px;
-}
-#toggler,
-.navbar label {
-  display: none;
 }
 .ri-menu-line {
   width: 35px;
@@ -132,8 +128,8 @@ body {
   bottom: 0;
 }
 .arrow {
-  width: 6vmin;
-  height: 6vmin;
+  width: 7vmin;
+  height: 7vmin;
   box-sizing: border-box;
   position: absolute;
   top: 0;
@@ -144,7 +140,7 @@ body {
   content: "";
   width: 100%;
   height: 100%;
-  border-width: 0.2vmin 0.2vmin 0 0;
+  border-width: 0.3vmin 0.3vmin 0 0;
   border-style: solid;
   border-color: white;
   transition: 0.2s ease;
@@ -259,7 +255,7 @@ h1:hover {
   margin: 0 60px 0 60px;
 }
 .wrapper-item .container {
-  width: 100%;
+  width: 80%;
   height: 40%;
 
   display: flex;
@@ -691,21 +687,6 @@ h1:hover {
   .logo {
     width: 40px;
   }
-  
-  
-  .navbar label {
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    right: 20px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
-  #toggler:checked ~ .menu {
-    max-height: 100%;
-  }
-  
   .remove-text {
     display: none;
   }
