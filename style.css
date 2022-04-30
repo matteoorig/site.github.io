@@ -766,4 +766,8 @@ h1:hover {
   .borderplus{
     margin-bottom: 20px;
   }
+  .background-container {
+    background-image: none;
+    background-color: #373737;
+  }
 }
