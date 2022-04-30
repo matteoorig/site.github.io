@@ -642,7 +642,7 @@ h1:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  flex-direction: row;
   padding-left: 20px;
   padding-right: 20px;
   font-family: "Montserrat", sans-serif;
@@ -769,5 +769,9 @@ h1:hover {
   .background-container {
     background-image: none;
     background-color: #373737;
+  }
+  .bottom-footer {
+    font-size: 14px;
+    flex-direction: column;
   }
 }
