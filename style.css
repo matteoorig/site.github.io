@@ -610,8 +610,22 @@ h1:hover {
   bottom: 20px;
   right: 0;
 }
-
-.displaynone{
+.mobile-arrow {
+  display: none;
+}
+.mobile-arrow-second{
+  display: none;
+}
+.text-arrow{
+  display: none;
+}
+.text-arrow-line{
+  display: none;
+}
+.text-arrow-second{
+  display: none;
+}
+.text-arrow-line-second{
   display: none;
 }
 
@@ -807,10 +821,8 @@ h1:hover {
     opacity: 0.8;
   }
 
-  .displaynone{
-    display: flex;
-  }
   .mobile-arrow {
+    display: flex;
     position: absolute;
     width: fit-content;
     height: 9vh;
@@ -821,6 +833,7 @@ h1:hover {
     right: 28vw;
   }
   .text-arrow {
+    display: flex;
     position: absolute;
 
     font-size: 18px;
@@ -831,6 +844,7 @@ h1:hover {
     left: 28vw;
   }
   .text-arrow-line {
+    display: flex;
     position: absolute;
 
     font-size: 12px;
@@ -842,6 +856,7 @@ h1:hover {
   }
 
   .mobile-arrow-second {
+    display: flex;
     position: absolute;
     width: fit-content;
     height: 8vh;
@@ -852,6 +867,7 @@ h1:hover {
     left: 34vw;
   }
   .text-arrow-second {
+    display: flex;
     position: absolute;
 
     font-size: 18px;
@@ -862,6 +878,7 @@ h1:hover {
     left: 15vw;
   }
   .text-arrow-line-second{
+    display: flex;
     position: absolute;
 
     font-size: 12px;
