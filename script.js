@@ -52,6 +52,7 @@ class Cursor {
     this.Hero = document.querySelector("body");
     this.double_img_area = document.querySelector("#area-double-img");
     this.bounds = this.Cursor.getBoundingClientRect();
+    this.itemcontainer = document.querySelector(".item-container");
 
     this.cursorConfigs = {
       x: { previous: 0, current: 0, amt: 0.2 },
@@ -92,6 +93,12 @@ class Cursor {
       });
     });
 
+    this.itemcontainer.addEventListener("mouseenter", ()=>{
+      this.scaleAnimation(this.Cursor.children[0], 0.2, 0.8);
+    })
+    this.itemcontainer.addEventListener("mouseleave", () => {
+      this.scaleAnimation(this.Cursor.children[0], 0, 0.4);
+    });
     
 
     //diventare un cerchio quando va sulla freccia dell'horizontal scroll

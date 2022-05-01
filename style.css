@@ -344,6 +344,17 @@ h1:hover {
   height: 100%;
   width: 50%;
 }
+.text-hs-arrow{
+  position: absolute;
+
+  left: -160px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: var(--details);
+}
 
 .scroll-down {
   display: none;
@@ -546,7 +557,7 @@ h1:hover {
   background-color: var(--primary);
 }
 .container-post-scroll .container-item-ps {
-  width: 40%;
+  width: 45%;
   height: 80%;
 
   display: flex;
@@ -591,7 +602,7 @@ h1:hover {
 .central {
   width: 95%;
   position: absolute;
-  top: 49%;
+  top: 45%;
 }
 .bottom-central {
   width: 15%;
@@ -603,6 +614,18 @@ h1:hover {
   display: none;
 }
 .mobile-arrow-second{
+  display: none;
+}
+.text-arrow{
+  display: none;
+}
+.text-arrow-line{
+  display: none;
+}
+.text-arrow-second{
+  display: none;
+}
+.text-arrow-line-second{
   display: none;
 }
 
@@ -838,7 +861,7 @@ h1:hover {
 
     transform: rotate(-160deg);
 
-    bottom: 7vh;
+    bottom: 8vh;
     left: 34vw;
   }
   .text-arrow-second {
