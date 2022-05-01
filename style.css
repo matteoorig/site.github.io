@@ -610,24 +610,7 @@ h1:hover {
   bottom: 20px;
   right: 0;
 }
-.mobile-arrow {
-  display: none;
-}
-.mobile-arrow-second{
-  display: none;
-}
-.text-arrow{
-  display: none;
-}
-.text-arrow-line{
-  display: none;
-}
-.text-arrow-second{
-  display: none;
-}
-.text-arrow-line-second{
-  display: none;
-}
+
 
 .footer {
   width: 100%;
