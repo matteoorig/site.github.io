@@ -555,8 +555,6 @@ h1:hover {
   flex-direction: column;
   position: relative;
   padding: 20px;
-
-  border: 1px solid magenta;
 }
 .container-item-ps .container-text-ps-title {
   font-family: "Montserrat", sans-serif;
