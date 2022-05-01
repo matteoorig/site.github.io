@@ -553,7 +553,10 @@ h1:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: relative;
   padding: 20px;
+
+  border: 1px solid magenta;
 }
 .container-item-ps .container-text-ps-title {
   font-family: "Montserrat", sans-serif;
@@ -597,6 +600,12 @@ h1:hover {
   position: absolute;
   bottom: 20px;
   right: 0;
+}
+.mobile-arrow {
+  display: none;
+}
+.mobile-arrow-second{
+  display: none;
 }
 
 .footer {
@@ -789,5 +798,69 @@ h1:hover {
     font-family: "Montserrat", sans-serif;
     color: white;
     opacity: 0.8;
+  }
+
+  .mobile-arrow {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 9vh;
+
+    transform: rotate(-90deg);
+
+    top: 7vh;
+    right: 28vw;
+  }
+  .text-arrow {
+    position: absolute;
+
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--details);
+
+    top: 3vh;
+    left: 28vw;
+  }
+  .text-arrow-line {
+    position: absolute;
+
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+    top: 6vh;
+    left: 28vw;
+  }
+
+  .mobile-arrow-second {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 8vh;
+
+    transform: rotate(-160deg);
+
+    bottom: 7vh;
+    left: 34vw;
+  }
+  .text-arrow-second {
+    position: absolute;
+
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    color: var(--details);
+
+    bottom: 5vh;
+    left: 15vw;
+  }
+  .text-arrow-line-second{
+    position: absolute;
+
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+
+    bottom: 3vh;
+    left: 15vw;
   }
 }
