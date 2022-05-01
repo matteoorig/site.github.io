@@ -833,6 +833,7 @@ h1:hover {
     right: 28vw;
   }
   .text-arrow {
+    display: flex;
     position: absolute;
 
     font-size: 18px;
@@ -843,6 +844,7 @@ h1:hover {
     left: 28vw;
   }
   .text-arrow-line {
+    display: flex;
     position: absolute;
 
     font-size: 12px;
@@ -865,6 +867,7 @@ h1:hover {
     left: 34vw;
   }
   .text-arrow-second {
+    display: flex;
     position: absolute;
 
     font-size: 18px;
@@ -875,6 +878,7 @@ h1:hover {
     left: 15vw;
   }
   .text-arrow-line-second{
+    display: flex;
     position: absolute;
 
     font-size: 12px;
