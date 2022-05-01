@@ -825,7 +825,7 @@ h1:hover {
     display: flex;
     position: absolute;
     width: fit-content;
-    height: 9vh;
+    height: 50px;
 
     transform: rotate(-90deg);
 
@@ -859,7 +859,7 @@ h1:hover {
     display: flex;
     position: absolute;
     width: fit-content;
-    height: 8vh;
+    height: 50px;
 
     transform: rotate(-160deg);
 
