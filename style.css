@@ -38,6 +38,7 @@ body {
   padding: 25px;
 }
 .list a {
+  
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   font-size: large;
@@ -69,6 +70,7 @@ body {
   width: 60px;
 }
 .list {
+  border: 1px solid red;
   list-style: none;
   display: flex;
   gap: 15px;
@@ -108,9 +110,10 @@ body {
   background-color: black;
 }
 .savino-rosella {
-  width: 100%;
+
+  border: 1px solid green;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-flow: row wrap;
 }
 
@@ -171,12 +174,11 @@ body {
 }
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 15vmin;
+  font-size: 3vh;
 
-  letter-spacing: 10px;
+  letter-spacing: 5px;
 
   -webkit-text-fill-color: white;
-  margin: 15px;
   transition: color 2s ease-in-out;
 }
 h1:hover {
