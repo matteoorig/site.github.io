@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 :root {
   --shadow: rgba(0, 0, 0, 0.2);
@@ -67,7 +68,7 @@ body {
   color: var(--details);
 }
 .logo {
-  width: 20vw;
+  width: 30vh;
 }
 .object{
   width: 50vw;
@@ -112,7 +113,23 @@ body {
 
   position: relative;
   background-color: black;
+  -webkit-filter: blur(4px)
 }
+
+.container-backgroundpost{
+ 
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .savino-rosella {
   display: flex;
   justify-content: flex-start;
@@ -135,8 +152,6 @@ body {
   width: 6vmin;
   height: 6vmin;
   box-sizing: border-box;
-  position: absolute;
-  top: 0;
 
   transform: rotate(-225deg);
 }
@@ -725,6 +740,26 @@ h1:hover {
   position: absolute;
 }
 
+.maps-container{
+  padding: 6vh;
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maps-container img{
+  width: 4vw;
+  padding: 4;
+}
+.maps-text{
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 4vmin;
+}
+
 @media screen and (max-width: 900px) {
   
   .remove-text {
@@ -890,5 +925,12 @@ h1:hover {
 
     bottom: 3vh;
     left: 15vw;
+  }
+  .maps-container img{
+    width: 6vw;
+    padding: 4;
+  }
+  .maps-container{
+    padding: 2vh;
   }
 }

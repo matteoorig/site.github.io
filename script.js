@@ -191,61 +191,6 @@ if (vW <= 450 && vH <= 1000) {
     });
   });
 
-  //item animation
-  objcentral.addEventListener("mouseenter", ()=>{
-    
-    gsap.to(objcentral, {
-      duration: 0.6,
-      width: "105%",
-      xPercent: -15,
-      ease: "Power3.easeOut",
-    });
-  })
-  objcentral.addEventListener("mouseleave", ()=>{
-    
-    gsap.to(objcentral, {
-      duration: 0.6,
-      width: "95%",
-      xPercent: 0,
-      ease: "Power3.easeOut",
-    });
-  })
-  objtop.addEventListener("mouseenter", ()=>{
-    
-    gsap.to(objtop, {
-      duration: 0.6,
-      width: "20%",
-      xPercent: -15,
-      ease: "Power3.easeOut",
-    });
-  })
-  objtop.addEventListener("mouseleave", ()=>{
-    
-    gsap.to(objtop, {
-      duration: 0.6,
-      width: "15%",
-      xPercent: 0,
-      ease: "Power3.easeOut",
-    });
-  })
-  objbottom.addEventListener("mouseenter", ()=>{
-    
-    gsap.to(objbottom, {
-      duration: 0.6,
-      width: "20%",
-      xPercent: -15,
-      ease: "Power3.easeOut",
-    });
-  })
-  objbottom.addEventListener("mouseleave", ()=>{
-    
-    gsap.to(objbottom, {
-      duration: 0.6,
-      width: "15%",
-      xPercent: 0,
-      ease: "Power3.easeOut",
-    });
-  })
 
   //on hover horizontal scroll
   hs_area.forEach((obj) => {
