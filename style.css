@@ -607,23 +607,25 @@ h1:hover {
 
 /*onhover obj*/
 .item-container {
-  width: 100%;
+  width: 120%;
   height: 100%;
   position: relative;
+
+  background-image: url("./object.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 .top-central {
-  width: 15%;
-  position: absolute;
-  top: 115px;
-  right: 0;
+  display: none;
 }
 
 .central {
-  width: 95%;
-  position: absolute;
-  top: 45%;
+  display: none;
 }
 .bottom-central {
+  display: none;
   width: 15%;
   position: absolute;
   bottom: 20px;
@@ -760,6 +762,7 @@ h1:hover {
   font-size: 4vmin;
 }
 
+
 @media screen and (max-width: 900px) {
   
   .remove-text {
@@ -806,21 +809,32 @@ h1:hover {
   .container-post-scroll .container-item-ps {
     width: 370px;
   }
+  
   .top-central {
+    display: flex;
     top: 30px;
     width: 52px;
+    position: absolute;
+    right: 0;
   }
   .bottom-central {
+    display: flex;
+    position: absolute;
     bottom: 10px;
     width: 52px;
   }
   .central {
+    display: flex;
+    position: absolute;
     top: 55px;
     width: 340px;
     right: 0;
   }
   .item-container {
     height: 160px;
+
+    background-image: none;
+  
   }
   .container-hs-top {
     display: none;
