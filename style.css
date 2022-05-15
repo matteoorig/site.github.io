@@ -832,6 +832,7 @@ h1:hover {
   }
   .item-container {
     height: 160px;
+    width: 100%;
 
     background-image: none;
   
